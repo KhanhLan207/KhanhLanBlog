@@ -5,14 +5,14 @@ draft: false
 tags: ["Java", "Lập Trình", "Cơ Bản"]
 categories: ["Java"]
 cover:
-  image: "/images/posts/java-header.svg"
+  image: "/KhanhLanBlog/images/posts/java-header.svg"
   alt: "Java Programming"
   caption: "Ngôn ngữ lập trình Java"
 ---
 
 # Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ
 
-![Java Logo](/images/posts/java-header.svg)
+![Java Logo](/KhanhLanBlog/images/posts/java-header.svg)
 
 Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ và được sử dụng rộng rãi trong nhiều lĩnh vực từ phát triển ứng dụng di động đến hệ thống doanh nghiệp lớn.
 

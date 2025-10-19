@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
-    <link>http://localhost:1313/tags/web/</link>
+    <link>http://localhost:1313/KhanhLanBlog/tags/web/</link>
     <description>Recent content in Web on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi-vn</language>
     <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/KhanhLanBlog/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web</title>
-      <link>http://localhost:1313/posts/javascript-intro/</link>
+      <link>http://localhost:1313/KhanhLanBlog/posts/javascript-intro/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-intro/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/posts/javascript-intro/</guid>
       <description>&lt;h1 id=&#34;giới-thiệu-về-javascript---ngôn-ngữ-của-web&#34;&gt;Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;JavaScript Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-header.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/KhanhLanBlog/images/posts/javascript-header.svg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến nhất trên web, cho phép tạo ra các trang web động và tương tác với người dùng.&lt;/p&gt;
 &lt;h2 id=&#34;lịch-sử-javascript&#34;&gt;Lịch Sử JavaScript&lt;/h2&gt;
 &lt;p&gt;JavaScript được tạo ra bởi Brendan Eich tại Netscape vào năm 1995, ban đầu có tên là Mocha, sau đó đổi thành LiveScript và cuối cùng là JavaScript. Mặc dù có &amp;ldquo;Java&amp;rdquo; trong tên, nhưng JavaScript hoàn toàn khác biệt với Java.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript DOM - Tương Tác Với Trang Web</title>
-      <link>http://localhost:1313/posts/javascript-dom/</link>
+      <link>http://localhost:1313/KhanhLanBlog/posts/javascript-dom/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-dom/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/posts/javascript-dom/</guid>
       <description>&lt;h1 id=&#34;javascript-dom---tương-tác-với-trang-web&#34;&gt;JavaScript DOM - Tương Tác Với Trang Web&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;JavaScript DOM&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-dom.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript DOM&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/KhanhLanBlog/images/posts/javascript-dom.svg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Document Object Model (DOM) là một giao diện lập trình cho phép JavaScript tương tác với HTML và CSS, giúp tạo ra các trang web động và tương tác.&lt;/p&gt;
 &lt;h2 id=&#34;dom-là-gì&#34;&gt;DOM Là Gì?&lt;/h2&gt;
 &lt;p&gt;DOM biểu diễn trang web dưới dạng cấu trúc cây, trong đó mỗi thẻ HTML là một nút (node). JavaScript có thể truy cập và thay đổi tất cả các phần tử trong cây DOM này.&lt;/p&gt;</description>

@@ -5,14 +5,14 @@ draft: false
 tags: ["JavaScript", "Web", "Frontend"]
 categories: ["JavaScript"]
 cover:
-    image: "/images/posts/javascript-header.svg"
-    alt: "JavaScript Programming"
-    caption: "Ngôn ngữ lập trình JavaScript"
+  image: "/KhanhLanBlog/images/posts/javascript-header.svg"
+  alt: "JavaScript Programming"
+  caption: "Ngôn ngữ lập trình JavaScript"
 ---
 
 # Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web
 
-![JavaScript Logo](/images/posts/javascript-header.svg)
+![JavaScript Logo](/KhanhLanBlog/images/posts/javascript-header.svg)
 
 JavaScript là ngôn ngữ lập trình phổ biến nhất trên web, cho phép tạo ra các trang web động và tương tác với người dùng.
 
@@ -37,17 +37,17 @@ JavaScript có thể được nhúng trực tiếp vào HTML hoặc được li�
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>JavaScript Demo</title>
     <script>
-        function xinChao() {
-            alert("Xin chào từ JavaScript!");
-        }
+      function xinChao() {
+        alert("Xin chào từ JavaScript!");
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <button onclick="xinChao()">Nhấn vào đây</button>
-</body>
+  </body>
 </html>
 ```
 
@@ -56,13 +56,13 @@ JavaScript có thể được nhúng trực tiếp vào HTML hoặc được li�
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>JavaScript Demo</title>
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <button onclick="xinChao()">Nhấn vào đây</button>
-</body>
+  </body>
 </html>
 ```
 
@@ -70,7 +70,7 @@ Với nội dung tệp script.js:
 
 ```javascript
 function xinChao() {
-    alert("Xin chào từ JavaScript!");
+  alert("Xin chào từ JavaScript!");
 }
 ```
 
@@ -91,16 +91,17 @@ let y = 20;
 const PI = 3.14;
 
 // Các kiểu dữ liệu
-let so = 10;                // Number
-let chuoi = "JavaScript";   // String
-let dung = true;            // Boolean
-let mang = [1, 2, 3];       // Array
-let doiTuong = {            // Object
-    ten: "JavaScript",
-    namRaMat: 1995
+let so = 10; // Number
+let chuoi = "JavaScript"; // String
+let dung = true; // Boolean
+let mang = [1, 2, 3]; // Array
+let doiTuong = {
+  // Object
+  ten: "JavaScript",
+  namRaMat: 1995,
 };
 let khongXacDinh = undefined; // Undefined
-let khongCoGiaTri = null;     // Null
+let khongCoGiaTri = null; // Null
 ```
 
 ### Hàm
@@ -108,7 +109,7 @@ let khongCoGiaTri = null;     // Null
 ```javascript
 // Khai báo hàm
 function tinhTong(a, b) {
-    return a + b;
+  return a + b;
 }
 
 // Gọi hàm
@@ -127,42 +128,42 @@ console.log("Tích: " + nhan(5, 3));
 let diem = 85;
 
 if (diem >= 90) {
-    console.log("Xuất sắc");
+  console.log("Xuất sắc");
 } else if (diem >= 80) {
-    console.log("Giỏi");
+  console.log("Giỏi");
 } else if (diem >= 70) {
-    console.log("Khá");
+  console.log("Khá");
 } else {
-    console.log("Trung bình");
+  console.log("Trung bình");
 }
 
 // Vòng lặp for
 for (let i = 0; i < 5; i++) {
-    console.log("Số: " + i);
+  console.log("Số: " + i);
 }
 
 // Vòng lặp while
 let j = 0;
 while (j < 5) {
-    console.log("Số: " + j);
-    j++;
+  console.log("Số: " + j);
+  j++;
 }
 
 // Vòng lặp for...of (ES6)
 let mang = [1, 2, 3, 4, 5];
 for (let phanTu of mang) {
-    console.log(phanTu);
+  console.log(phanTu);
 }
 
 // Vòng lặp for...in
 let doiTuong = {
-    ten: "JavaScript",
-    namRaMat: 1995,
-    tacGia: "Brendan Eich"
+  ten: "JavaScript",
+  namRaMat: 1995,
+  tacGia: "Brendan Eich",
 };
 
 for (let thuocTinh in doiTuong) {
-    console.log(thuocTinh + ": " + doiTuong[thuocTinh]);
+  console.log(thuocTinh + ": " + doiTuong[thuocTinh]);
 }
 ```
 
@@ -190,8 +191,8 @@ document.body.appendChild(doanVan);
 
 // Xử lý sự kiện
 let nutBam = document.getElementById("nutBam");
-nutBam.addEventListener("click", function() {
-    alert("Bạn đã nhấn vào nút!");
+nutBam.addEventListener("click", function () {
+  alert("Bạn đã nhấn vào nút!");
 });
 ```
 
@@ -202,38 +203,38 @@ JavaScript xử lý các tác vụ bất đồng bộ thông qua callbacks, prom
 ```javascript
 // Callback
 function taiDuLieu(callback) {
-    setTimeout(function() {
-        console.log("Đã tải dữ liệu");
-        callback("Dữ liệu");
-    }, 2000);
+  setTimeout(function () {
+    console.log("Đã tải dữ liệu");
+    callback("Dữ liệu");
+  }, 2000);
 }
 
-taiDuLieu(function(data) {
-    console.log("Dữ liệu nhận được: " + data);
+taiDuLieu(function (data) {
+  console.log("Dữ liệu nhận được: " + data);
 });
 
 // Promise
 function taiDuLieuPromise() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log("Đã tải dữ liệu");
-            resolve("Dữ liệu");
-        }, 2000);
-    });
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("Đã tải dữ liệu");
+      resolve("Dữ liệu");
+    }, 2000);
+  });
 }
 
 taiDuLieuPromise()
-    .then(data => console.log("Dữ liệu nhận được: " + data))
-    .catch(error => console.error("Lỗi: " + error));
+  .then((data) => console.log("Dữ liệu nhận được: " + data))
+  .catch((error) => console.error("Lỗi: " + error));
 
 // Async/Await (ES8)
 async function xuLyDuLieu() {
-    try {
-        const data = await taiDuLieuPromise();
-        console.log("Dữ liệu nhận được: " + data);
-    } catch (error) {
-        console.error("Lỗi: " + error);
-    }
+  try {
+    const data = await taiDuLieuPromise();
+    console.log("Dữ liệu nhận được: " + data);
+  } catch (error) {
+    console.error("Lỗi: " + error);
+  }
 }
 
 xuLyDuLieu();

@@ -5,20 +5,21 @@ draft: false
 tags: ["Java", "Collections", "Data Structures"]
 categories: ["Java"]
 cover:
-    image: "/images/posts/java-collections.svg"
-    alt: "Java Collections Framework"
-    caption: "Cấu trúc dữ liệu trong Java"
+  image: "/KhanhLanBlog/images/posts/java-collections.svg"
+  alt: "Java Collections Framework"
+  caption: "Cấu trúc dữ liệu trong Java"
 ---
 
 # Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java
 
-![Java Collections](/images/posts/java-collections.svg)
+![Java Collections](/KhanhLanBlog/images/posts/java-collections.svg)
 
 Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này bao gồm các interfaces, implementations và algorithms.
 
 ## Tổng Quan Về Collections Framework
 
 Collections Framework trong Java bao gồm:
+
 - **Interfaces**: Các abstract data types đại diện cho collections
 - **Implementations**: Các lớp cụ thể triển khai các interfaces
 - **Algorithms**: Các phương thức thực hiện các thao tác hữu ích như tìm kiếm và sắp xếp

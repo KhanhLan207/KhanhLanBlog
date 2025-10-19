@@ -5,14 +5,14 @@ draft: false
 tags: ["JavaScript", "Framework", "React", "Vue", "Angular", "Lập Trình"]
 categories: ["JavaScript"]
 cover:
-    image: "/images/posts/javascript-frameworks.svg"
-    alt: "JavaScript Frameworks"
-    caption: "React • Vue • Angular • Svelte"
+  image: "/KhanhLanBlog/images/posts/javascript-frameworks.svg"
+  alt: "JavaScript Frameworks"
+  caption: "React • Vue • Angular • Svelte"
 ---
 
 # Các Framework JavaScript Phổ Biến
 
-![JavaScript Frameworks](/images/posts/javascript-frameworks.svg)
+![JavaScript Frameworks](/KhanhLanBlog/images/posts/javascript-frameworks.svg)
 
 Các framework JavaScript hiện đại đã trở thành công cụ không thể thiếu trong phát triển web. Chúng cung cấp cấu trúc, tối ưu hóa hiệu suất và đơn giản hóa quá trình phát triển ứng dụng web phức tạp.
 
@@ -43,7 +43,7 @@ React là một thư viện JavaScript do Facebook phát triển, tập trung v�
 ### Ví Dụ Component React
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function BoĐếm() {
   const [số, đặtSố] = useState(0);
@@ -91,21 +91,21 @@ Vue.js là một framework tiến bộ để xây dựng giao diện người d�
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      số: 0
-    };
-  },
-  methods: {
-    tăng() {
-      this.số += 1;
+  export default {
+    data() {
+      return {
+        số: 0,
+      };
     },
-    giảm() {
-      this.số -= 1;
-    }
-  }
-};
+    methods: {
+      tăng() {
+        this.số += 1;
+      },
+      giảm() {
+        this.số -= 1;
+      },
+    },
+  };
 </script>
 ```
 
@@ -131,17 +131,17 @@ Angular là một platform và framework toàn diện do Google phát triển, s
 ### Ví Dụ Component Angular
 
 ```typescript
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-bo-dem',
+  selector: "app-bo-dem",
   template: `
     <div>
       <h1>Bộ Đếm: {{ số }}</h1>
       <button (click)="tăng()">Tăng</button>
       <button (click)="giảm()">Giảm</button>
     </div>
-  `
+  `,
 })
 export class BoĐếmComponent {
   số = 0;
@@ -192,8 +192,8 @@ Svelte là một cách tiếp cận mới để xây dựng ứng dụng web, ch
 
 <div>
   <h1>Bộ Đếm: {số}</h1>
-  <button on:click={tăng}>Tăng</button>
-  <button on:click={giảm}>Giảm</button>
+  <button on:click="{tăng}">Tăng</button>
+  <button on:click="{giảm}">Giảm</button>
 </div>
 ```
 
@@ -206,15 +206,15 @@ Svelte là một cách tiếp cận mới để xây dựng ứng dụng web, ch
 
 ## So Sánh Các Framework
 
-| Tiêu chí | React | Vue | Angular | Svelte |
-|----------|-------|-----|---------|--------|
-| Đường cong học tập | Trung bình | Thấp | Cao | Thấp |
-| Hiệu suất | Cao | Cao | Cao | Rất cao |
-| Kích thước | Trung bình | Nhỏ | Lớn | Rất nhỏ |
-| Cộng đồng & Hỗ trợ | Rất lớn | Lớn | Lớn | Đang phát triển |
-| Tính linh hoạt | Cao | Cao | Trung bình | Cao |
-| Công cụ phát triển | Phong phú | Tốt | Rất tốt | Cơ bản |
-| Phù hợp cho | SPA, ứng dụng lớn | Mọi quy mô | Ứng dụng doanh nghiệp | Ứng dụng nhỏ-trung bình |
+| Tiêu chí           | React             | Vue        | Angular               | Svelte                  |
+| ------------------ | ----------------- | ---------- | --------------------- | ----------------------- |
+| Đường cong học tập | Trung bình        | Thấp       | Cao                   | Thấp                    |
+| Hiệu suất          | Cao               | Cao        | Cao                   | Rất cao                 |
+| Kích thước         | Trung bình        | Nhỏ        | Lớn                   | Rất nhỏ                 |
+| Cộng đồng & Hỗ trợ | Rất lớn           | Lớn        | Lớn                   | Đang phát triển         |
+| Tính linh hoạt     | Cao               | Cao        | Trung bình            | Cao                     |
+| Công cụ phát triển | Phong phú         | Tốt        | Rất tốt               | Cơ bản                  |
+| Phù hợp cho        | SPA, ứng dụng lớn | Mọi quy mô | Ứng dụng doanh nghiệp | Ứng dụng nhỏ-trung bình |
 
 ## Làm Thế Nào Để Chọn Framework Phù Hợp?
 

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Promises on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
-    <link>http://localhost:1313/tags/promises/</link>
+    <link>http://localhost:1313/KhanhLanBlog/tags/promises/</link>
     <description>Recent content in Promises on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi-vn</language>
     <lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/promises/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/KhanhLanBlog/tags/promises/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Bất Đồng Bộ - Promises, Async/Await</title>
-      <link>http://localhost:1313/posts/javascript-async/</link>
+      <link>http://localhost:1313/KhanhLanBlog/posts/javascript-async/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-async/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/posts/javascript-async/</guid>
       <description>&lt;h1 id=&#34;javascript-bất-đồng-bộ---promises-asyncawait&#34;&gt;JavaScript Bất Đồng Bộ - Promises, Async/Await&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;JavaScript Async&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-async.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript Async&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/KhanhLanBlog/images/posts/javascript-async.svg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;JavaScript là ngôn ngữ đơn luồng (single-threaded), nhưng có thể xử lý các tác vụ bất đồng bộ thông qua các cơ chế như callbacks, promises, và async/await.&lt;/p&gt;
 &lt;h2 id=&#34;tại-sao-cần-lập-trình-bất-đồng-bộ&#34;&gt;Tại Sao Cần Lập Trình Bất Đồng Bộ?&lt;/h2&gt;
 &lt;p&gt;Lập trình bất đồng bộ cho phép thực hiện các tác vụ mà không chặn luồng chính, đặc biệt hữu ích cho:&lt;/p&gt;

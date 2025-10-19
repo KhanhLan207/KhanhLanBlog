@@ -5,14 +5,14 @@ draft: false
 tags: ["JavaScript", "DOM", "Web", "Lập Trình"]
 categories: ["JavaScript"]
 cover:
-    image: "/images/posts/javascript-dom.svg"
-    alt: "JavaScript DOM"
-    caption: "Tương tác với DOM"
+  image: "/KhanhLanBlog/images/posts/javascript-dom.svg"
+  alt: "JavaScript DOM"
+  caption: "Tương tác với DOM"
 ---
 
 # JavaScript DOM - Tương Tác Với Trang Web
 
-![JavaScript DOM](/images/posts/javascript-dom.svg)
+![JavaScript DOM](/KhanhLanBlog/images/posts/javascript-dom.svg)
 
 Document Object Model (DOM) là một giao diện lập trình cho phép JavaScript tương tác với HTML và CSS, giúp tạo ra các trang web động và tương tác.
 
@@ -114,22 +114,22 @@ Sự kiện cho phép JavaScript phản hồi các hành động của người 
 // Thêm trình xử lý sự kiện
 const nutBam = document.getElementById("nut-bam");
 
-nutBam.addEventListener("click", function() {
-    alert("Bạn đã nhấn vào nút!");
+nutBam.addEventListener("click", function () {
+  alert("Bạn đã nhấn vào nút!");
 });
 
 // Sử dụng arrow function
 nutBam.addEventListener("mouseover", () => {
-    nutBam.style.backgroundColor = "lightblue";
+  nutBam.style.backgroundColor = "lightblue";
 });
 
 nutBam.addEventListener("mouseout", () => {
-    nutBam.style.backgroundColor = "";
+  nutBam.style.backgroundColor = "";
 });
 
 // Xóa trình xử lý sự kiện
 function xuLyClick() {
-    alert("Xử lý click!");
+  alert("Xử lý click!");
 }
 
 nutBam.addEventListener("click", xuLyClick);
@@ -143,28 +143,28 @@ JavaScript hỗ trợ nhiều loại sự kiện:
 
 ```javascript
 // Sự kiện chuột
-element.addEventListener("click", xuLy);      // Nhấp chuột
-element.addEventListener("dblclick", xuLy);   // Nhấp đúp
-element.addEventListener("mouseover", xuLy);  // Di chuột vào
-element.addEventListener("mouseout", xuLy);   // Di chuột ra
-element.addEventListener("mousedown", xuLy);  // Nhấn chuột xuống
-element.addEventListener("mouseup", xuLy);    // Thả chuột
+element.addEventListener("click", xuLy); // Nhấp chuột
+element.addEventListener("dblclick", xuLy); // Nhấp đúp
+element.addEventListener("mouseover", xuLy); // Di chuột vào
+element.addEventListener("mouseout", xuLy); // Di chuột ra
+element.addEventListener("mousedown", xuLy); // Nhấn chuột xuống
+element.addEventListener("mouseup", xuLy); // Thả chuột
 
 // Sự kiện bàn phím
-element.addEventListener("keydown", xuLy);    // Nhấn phím xuống
-element.addEventListener("keyup", xuLy);      // Thả phím
-element.addEventListener("keypress", xuLy);   // Nhấn phím (ký tự)
+element.addEventListener("keydown", xuLy); // Nhấn phím xuống
+element.addEventListener("keyup", xuLy); // Thả phím
+element.addEventListener("keypress", xuLy); // Nhấn phím (ký tự)
 
 // Sự kiện form
-form.addEventListener("submit", xuLy);        // Gửi form
-input.addEventListener("change", xuLy);       // Thay đổi giá trị
-input.addEventListener("focus", xuLy);        // Focus vào input
-input.addEventListener("blur", xuLy);         // Mất focus
+form.addEventListener("submit", xuLy); // Gửi form
+input.addEventListener("change", xuLy); // Thay đổi giá trị
+input.addEventListener("focus", xuLy); // Focus vào input
+input.addEventListener("blur", xuLy); // Mất focus
 
 // Sự kiện window
-window.addEventListener("load", xuLy);        // Trang đã tải xong
-window.addEventListener("resize", xuLy);      // Thay đổi kích thước cửa sổ
-window.addEventListener("scroll", xuLy);      // Cuộn trang
+window.addEventListener("load", xuLy); // Trang đã tải xong
+window.addEventListener("resize", xuLy); // Thay đổi kích thước cửa sổ
+window.addEventListener("scroll", xuLy); // Cuộn trang
 ```
 
 ## Ví Dụ Thực Tế
@@ -173,31 +173,31 @@ window.addEventListener("scroll", xuLy);      // Cuộn trang
 
 ```javascript
 function themMucDanhSach() {
-    // Lấy giá trị từ input
-    const input = document.getElementById("muc-moi");
-    const giaTriMoi = input.value.trim();
-    
-    if (giaTriMoi !== "") {
-        // Tạo phần tử mới
-        const mucMoi = document.createElement("li");
-        mucMoi.textContent = giaTriMoi;
-        
-        // Thêm nút xóa
-        const nutXoa = document.createElement("button");
-        nutXoa.textContent = "Xóa";
-        nutXoa.className = "nut-xoa";
-        nutXoa.onclick = function() {
-            mucMoi.remove();
-        };
-        
-        mucMoi.appendChild(nutXoa);
-        
-        // Thêm vào danh sách
-        document.getElementById("danh-sach").appendChild(mucMoi);
-        
-        // Xóa giá trị input
-        input.value = "";
-    }
+  // Lấy giá trị từ input
+  const input = document.getElementById("muc-moi");
+  const giaTriMoi = input.value.trim();
+
+  if (giaTriMoi !== "") {
+    // Tạo phần tử mới
+    const mucMoi = document.createElement("li");
+    mucMoi.textContent = giaTriMoi;
+
+    // Thêm nút xóa
+    const nutXoa = document.createElement("button");
+    nutXoa.textContent = "Xóa";
+    nutXoa.className = "nut-xoa";
+    nutXoa.onclick = function () {
+      mucMoi.remove();
+    };
+
+    mucMoi.appendChild(nutXoa);
+
+    // Thêm vào danh sách
+    document.getElementById("danh-sach").appendChild(mucMoi);
+
+    // Xóa giá trị input
+    input.value = "";
+  }
 }
 
 // Thêm sự kiện cho nút
@@ -207,33 +207,35 @@ document.getElementById("nut-them").addEventListener("click", themMucDanhSach);
 ### Ví dụ 2: Xác thực form
 
 ```javascript
-document.getElementById("form-dang-ky").addEventListener("submit", function(event) {
+document
+  .getElementById("form-dang-ky")
+  .addEventListener("submit", function (event) {
     let coLoi = false;
-    
+
     // Kiểm tra tên
     const ten = document.getElementById("ten").value.trim();
     if (ten === "") {
-        document.getElementById("loi-ten").textContent = "Vui lòng nhập tên";
-        coLoi = true;
+      document.getElementById("loi-ten").textContent = "Vui lòng nhập tên";
+      coLoi = true;
     } else {
-        document.getElementById("loi-ten").textContent = "";
+      document.getElementById("loi-ten").textContent = "";
     }
-    
+
     // Kiểm tra email
     const email = document.getElementById("email").value.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-        document.getElementById("loi-email").textContent = "Email không hợp lệ";
-        coLoi = true;
+      document.getElementById("loi-email").textContent = "Email không hợp lệ";
+      coLoi = true;
     } else {
-        document.getElementById("loi-email").textContent = "";
+      document.getElementById("loi-email").textContent = "";
     }
-    
+
     // Nếu có lỗi, ngăn form gửi đi
     if (coLoi) {
-        event.preventDefault();
+      event.preventDefault();
     }
-});
+  });
 ```
 
 ## Kết Luận

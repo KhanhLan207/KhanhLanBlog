@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ES6 on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
-    <link>http://localhost:1313/tags/es6/</link>
+    <link>http://localhost:1313/KhanhLanBlog/tags/es6/</link>
     <description>Recent content in ES6 on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi-vn</language>
     <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/KhanhLanBlog/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript ES6 - Những Tính Năng Hiện Đại</title>
-      <link>http://localhost:1313/posts/javascript-es6/</link>
+      <link>http://localhost:1313/KhanhLanBlog/posts/javascript-es6/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-es6/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/posts/javascript-es6/</guid>
       <description>&lt;h1 id=&#34;javascript-es6---những-tính-năng-hiện-đại&#34;&gt;JavaScript ES6 - Những Tính Năng Hiện Đại&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;JavaScript ES6&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-es6.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript ES6&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/KhanhLanBlog/images/posts/javascript-es6.svg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ECMAScript 6 (ES6), còn được gọi là ECMAScript 2015, là một bản cập nhật lớn cho JavaScript, giới thiệu nhiều tính năng mới giúp viết mã dễ dàng và hiệu quả hơn.&lt;/p&gt;
 &lt;h2 id=&#34;các-tính-năng-chính-của-es6&#34;&gt;Các Tính Năng Chính Của ES6&lt;/h2&gt;
 &lt;h3 id=&#34;1-let-và-const&#34;&gt;1. Let và Const&lt;/h3&gt;
@@ -22,8 +22,8 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// let - phạm vi block
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Biến x khác với x ở ngoài
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 20
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Biến x khác với x ở ngoài
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 20
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 10
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;

@@ -5,14 +5,14 @@ draft: false
 tags: ["Java", "OOP", "Lập Trình"]
 categories: ["Java"]
 cover:
-    image: "/images/posts/java-oop.svg"
-    alt: "Java OOP"
-    caption: "Lập trình hướng đối tượng trong Java"
+  image: "/KhanhLanBlog/images/posts/java-oop.svg"
+  alt: "Java OOP"
+  caption: "Lập trình hướng đối tượng trong Java"
 ---
 
 # Lập Trình Hướng Đối Tượng Trong Java
 
-![Java OOP](/images/posts/java-oop.svg)
+![Java OOP](/KhanhLanBlog/images/posts/java-oop.svg)
 
 Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một trong những đặc điểm quan trọng nhất của Java. Bài viết này sẽ giới thiệu các khái niệm cơ bản về OOP trong Java.
 
@@ -27,20 +27,20 @@ public class SinhVien {
     // Thuộc tính private
     private String hoTen;
     private int tuoi;
-    
+
     // Getter và Setter
     public String getHoTen() {
         return hoTen;
     }
-    
+
     public void setHoTen(String hoTen) {
         this.hoTen = hoTen;
     }
-    
+
     public int getTuoi() {
         return tuoi;
     }
-    
+
     public void setTuoi(int tuoi) {
         if (tuoi > 0) {
             this.tuoi = tuoi;
@@ -58,7 +58,7 @@ Tính kế thừa cho phép một lớp (lớp con) kế thừa các thuộc tí
 public class NguoiDung {
     protected String tenDangNhap;
     protected String matKhau;
-    
+
     public void dangNhap() {
         System.out.println("Đăng nhập với tên: " + tenDangNhap);
     }
@@ -67,7 +67,7 @@ public class NguoiDung {
 // Lớp con
 public class QuanTriVien extends NguoiDung {
     private int capDoQuyen;
-    
+
     public void quanLyHeThong() {
         System.out.println("Quản lý hệ thống với quyền cấp: " + capDoQuyen);
     }
@@ -89,11 +89,11 @@ public class HinhHoc {
 // Lớp con 1
 public class HinhTron extends HinhHoc {
     private double banKinh;
-    
+
     public HinhTron(double banKinh) {
         this.banKinh = banKinh;
     }
-    
+
     @Override
     public double tinhDienTich() {
         return Math.PI * banKinh * banKinh;
@@ -104,12 +104,12 @@ public class HinhTron extends HinhHoc {
 public class HinhChuNhat extends HinhHoc {
     private double chieuDai;
     private double chieuRong;
-    
+
     public HinhChuNhat(double chieuDai, double chieuRong) {
         this.chieuDai = chieuDai;
         this.chieuRong = chieuRong;
     }
-    
+
     @Override
     public double tinhDienTich() {
         return chieuDai * chieuRong;
@@ -121,7 +121,7 @@ public class Main {
     public static void main(String[] args) {
         HinhHoc hinh1 = new HinhTron(5);
         HinhHoc hinh2 = new HinhChuNhat(4, 6);
-        
+
         System.out.println("Diện tích hình tròn: " + hinh1.tinhDienTich());
         System.out.println("Diện tích hình chữ nhật: " + hinh2.tinhDienTich());
     }
@@ -136,9 +136,9 @@ Tính trừu tượng cho phép tập trung vào những gì một đối tượ
 // Lớp trừu tượng
 public abstract class DongVat {
     protected String ten;
-    
+
     public abstract void keu();
-    
+
     public void an() {
         System.out.println(ten + " đang ăn...");
     }
@@ -149,7 +149,7 @@ public class Cho extends DongVat {
     public Cho(String ten) {
         this.ten = ten;
     }
-    
+
     @Override
     public void keu() {
         System.out.println(ten + " kêu: Gâu gâu!");
@@ -160,7 +160,7 @@ public class Meo extends DongVat {
     public Meo(String ten) {
         this.ten = ten;
     }
-    
+
     @Override
     public void keu() {
         System.out.println(ten + " kêu: Meo meo!");
@@ -180,19 +180,19 @@ public class SanPham {
     private String ten;
     private double gia;
     private int soLuong;
-    
+
     // Constructor
     public SanPham(String ten, double gia, int soLuong) {
         this.ten = ten;
         this.gia = gia;
         this.soLuong = soLuong;
     }
-    
+
     // Phương thức
     public double tinhTongGia() {
         return gia * soLuong;
     }
-    
+
     public void hienThiThongTin() {
         System.out.println("Tên: " + ten);
         System.out.println("Giá: " + gia);
@@ -212,7 +212,7 @@ public class Main {
         // Tạo đối tượng từ lớp SanPham
         SanPham sp1 = new SanPham("Laptop", 15000000, 2);
         SanPham sp2 = new SanPham("Điện thoại", 8000000, 3);
-        
+
         // Sử dụng các phương thức của đối tượng
         sp1.hienThiThongTin();
         sp2.hienThiThongTin();

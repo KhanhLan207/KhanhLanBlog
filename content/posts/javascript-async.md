@@ -5,14 +5,14 @@ draft: false
 tags: ["JavaScript", "Async", "Promises", "Lập Trình"]
 categories: ["JavaScript"]
 cover:
-    image: "/images/posts/javascript-async.svg"
+    image: "/KhanhLanBlog/images/posts/javascript-async.svg"
     alt: "JavaScript Async"
     caption: "Promises, Async/Await"
 ---
 
 # JavaScript Bất Đồng Bộ - Promises, Async/Await
 
-![JavaScript Async](/images/posts/javascript-async.svg)
+![JavaScript Async](/KhanhLanBlog/images/posts/javascript-async.svg)
 
 JavaScript là ngôn ngữ đơn luồng (single-threaded), nhưng có thể xử lý các tác vụ bất đồng bộ thông qua các cơ chế như callbacks, promises, và async/await.
 

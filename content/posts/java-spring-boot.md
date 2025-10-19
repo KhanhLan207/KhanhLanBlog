@@ -5,14 +5,14 @@ draft: false
 tags: ["Java", "Spring Boot", "Framework", "Backend"]
 categories: ["Java"]
 cover:
-    image: "/images/posts/spring-boot.svg"
-    alt: "Spring Boot Framework"
-    caption: "Framework Java hiện đại"
+  image: "/KhanhLanBlog/images/posts/spring-boot.svg"
+  alt: "Spring Boot Framework"
+  caption: "Framework Java hiện đại"
 ---
 
 # Spring Boot - Framework Java Hiện Đại
 
-![Spring Boot](/images/posts/spring-boot.svg)
+![Spring Boot](/KhanhLanBlog/images/posts/spring-boot.svg)
 
 Spring Boot là một framework phổ biến cho phát triển ứng dụng Java, giúp đơn giản hóa quá trình cấu hình và triển khai ứng dụng Spring.
 
@@ -104,51 +104,51 @@ public class SanPham {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String ten;
     private String moTa;
     private double gia;
-    
+
     // Constructors, Getters và Setters
-    
+
     public SanPham() {
     }
-    
+
     public SanPham(String ten, String moTa, double gia) {
         this.ten = ten;
         this.moTa = moTa;
         this.gia = gia;
     }
-    
+
     // Getters và Setters
     public Long getId() {
         return id;
     }
-    
+
     public void setId(Long id) {
         this.id = id;
     }
-    
+
     public String getTen() {
         return ten;
     }
-    
+
     public void setTen(String ten) {
         this.ten = ten;
     }
-    
+
     public String getMoTa() {
         return moTa;
     }
-    
+
     public void setMoTa(String moTa) {
         this.moTa = moTa;
     }
-    
+
     public double getGia() {
         return gia;
     }
-    
+
     public void setGia(double gia) {
         this.gia = gia;
     }
@@ -187,30 +187,30 @@ import java.util.Optional;
 
 @Service
 public class SanPhamService {
-    
+
     private final SanPhamRepository sanPhamRepository;
-    
+
     @Autowired
     public SanPhamService(SanPhamRepository sanPhamRepository) {
         this.sanPhamRepository = sanPhamRepository;
     }
-    
+
     public List<SanPham> layTatCaSanPham() {
         return sanPhamRepository.findAll();
     }
-    
+
     public Optional<SanPham> laySanPhamTheoId(Long id) {
         return sanPhamRepository.findById(id);
     }
-    
+
     public List<SanPham> timSanPhamTheoTen(String ten) {
         return sanPhamRepository.findByTenContaining(ten);
     }
-    
+
     public SanPham luuSanPham(SanPham sanPham) {
         return sanPhamRepository.save(sanPham);
     }
-    
+
     public void xoaSanPham(Long id) {
         sanPhamRepository.deleteById(id);
     }
@@ -235,43 +235,43 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/sanpham")
 public class SanPhamController {
-    
+
     private final SanPhamService sanPhamService;
-    
+
     @Autowired
     public SanPhamController(SanPhamService sanPhamService) {
         this.sanPhamService = sanPhamService;
     }
-    
+
     @GetMapping
     public ResponseEntity<List<SanPham>> layTatCaSanPham() {
         List<SanPham> danhSachSanPham = sanPhamService.layTatCaSanPham();
         return new ResponseEntity<>(danhSachSanPham, HttpStatus.OK);
     }
-    
+
     @GetMapping("/{id}")
     public ResponseEntity<SanPham> laySanPhamTheoId(@PathVariable Long id) {
         Optional<SanPham> sanPham = sanPhamService.laySanPhamTheoId(id);
         return sanPham.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
-    
+
     @GetMapping("/tim")
     public ResponseEntity<List<SanPham>> timSanPhamTheoTen(@RequestParam String ten) {
         List<SanPham> danhSachSanPham = sanPhamService.timSanPhamTheoTen(ten);
         return new ResponseEntity<>(danhSachSanPham, HttpStatus.OK);
     }
-    
+
     @PostMapping
     public ResponseEntity<SanPham> themSanPham(@RequestBody SanPham sanPham) {
         SanPham sanPhamMoi = sanPhamService.luuSanPham(sanPham);
         return new ResponseEntity<>(sanPhamMoi, HttpStatus.CREATED);
     }
-    
+
     @PutMapping("/{id}")
     public ResponseEntity<SanPham> capNhatSanPham(@PathVariable Long id, @RequestBody SanPham sanPham) {
         Optional<SanPham> sanPhamHienTai = sanPhamService.laySanPhamTheoId(id);
-        
+
         if (sanPhamHienTai.isPresent()) {
             sanPham.setId(id);
             SanPham sanPhamCapNhat = sanPhamService.luuSanPham(sanPham);
@@ -280,11 +280,11 @@ public class SanPhamController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-    
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> xoaSanPham(@PathVariable Long id) {
         Optional<SanPham> sanPham = sanPhamService.laySanPhamTheoId(id);
-        
+
         if (sanPham.isPresent()) {
             sanPhamService.xoaSanPham(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
@@ -350,7 +350,7 @@ public class SecurityConfig {
                 .and()
             .logout()
                 .permitAll();
-        
+
         return http.build();
     }
 

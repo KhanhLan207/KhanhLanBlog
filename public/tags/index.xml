@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thẻ on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/KhanhLanBlog/tags/</link>
     <description>Recent content in Thẻ on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi-vn</language>
     <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/KhanhLanBlog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular</title>
-      <link>http://localhost:1313/tags/angular/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/angular/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/angular/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/angular/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
-      <link>http://localhost:1313/tags/backend/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/backend/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/backend/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Cơ Bản</title>
-      <link>http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/c%C6%A1-b%E1%BA%A3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Collections</title>
-      <link>http://localhost:1313/tags/collections/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/collections/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/collections/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/collections/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Structures</title>
-      <link>http://localhost:1313/tags/data-structures/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/data-structures/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-structures/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/data-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Framework</title>
-      <link>http://localhost:1313/tags/framework/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/framework/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/framework/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Frontend</title>
-      <link>http://localhost:1313/tags/frontend/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/frontend/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/frontend/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/frontend/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/java/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/javascript/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Lập Trình</title>
-      <link>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/l%E1%BA%ADp-tr%C3%ACnh/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/l%E1%BA%ADp-tr%C3%ACnh/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/l%E1%BA%ADp-tr%C3%ACnh/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/react/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/react/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
-      <link>http://localhost:1313/tags/spring-boot/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/spring-boot/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/spring-boot/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>Vue</title>
-      <link>http://localhost:1313/tags/vue/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/vue/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vue/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/vue/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/web/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Async</title>
-      <link>http://localhost:1313/tags/async/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/async/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/async/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/async/</guid>
       <description></description>
     </item>
     <item>
       <title>Promises</title>
-      <link>http://localhost:1313/tags/promises/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/promises/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/promises/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/promises/</guid>
       <description></description>
     </item>
     <item>
       <title>DOM</title>
-      <link>http://localhost:1313/tags/dom/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/dom/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dom/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/dom/</guid>
       <description></description>
     </item>
     <item>
       <title>ES6</title>
-      <link>http://localhost:1313/tags/es6/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/es6/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/es6/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/es6/</guid>
       <description></description>
     </item>
     <item>
       <title>OOP</title>
-      <link>http://localhost:1313/tags/oop/</link>
+      <link>http://localhost:1313/KhanhLanBlog/tags/oop/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/oop/</guid>
+      <guid>http://localhost:1313/KhanhLanBlog/tags/oop/</guid>
       <description></description>
     </item>
   </channel>
