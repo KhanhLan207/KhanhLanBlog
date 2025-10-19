@@ -5,9 +5,9 @@ draft: false
 tags: ["Java", "Lập Trình", "Cơ Bản"]
 categories: ["Java"]
 cover:
-    image: "/images/posts/java-header.svg"
-    alt: "Java Programming"
-    caption: "Ngôn ngữ lập trình Java"
+  image: "/images/posts/java-header.svg"
+  alt: "Java Programming"
+  caption: "Ngôn ngữ lập trình Java"
 ---
 
 # Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ
@@ -28,7 +28,7 @@ Java được phát triển bởi James Gosling tại Sun Microsystems (hiện t
 
 3. **Đơn giản**: Java được thiết kế để dễ học và sử dụng, loại bỏ các tính năng phức tạp như con trỏ và quản lý bộ nhớ thủ công.
 
-4. **Bảo mật**: Java có nhiều tính năng bảo mật tích hợp, giúp phát triển ứng dụng an toàn.
+4. **Bảo mật**: Java có nhiều tính năng bảo mật tích hợp, giúp phát triển ứng dụng an toàn..
 
 5. **Mạnh mẽ**: Java có cơ chế kiểm tra lỗi mạnh mẽ, quản lý bộ nhớ tự động và xử lý ngoại lệ.
 
@@ -62,6 +62,7 @@ java HelloWorld
 ### Biến và Kiểu Dữ Liệu
 
 Java có hai loại kiểu dữ liệu:
+
 - Kiểu nguyên thủy: int, float, double, boolean, char...
 - Kiểu tham chiếu: String, Array, Class...
 
