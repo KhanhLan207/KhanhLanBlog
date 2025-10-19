@@ -20,7 +20,7 @@ Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ v�
 
 Java được phát triển bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Ngôn ngữ này được thiết kế với triết lý "Write Once, Run Anywhere" (WORA), cho phép mã nguồn Java có thể chạy trên bất kỳ thiết bị nào hỗ trợ Java mà không cần biên dịch lại.
 
-## Đặc Điểm Của Java
+## Đặc Điểm Của Javaa
 
 1. **Hướng đối tượng**: Java là ngôn ngữ lập trình hướng đối tượng, mọi thứ trong Java đều là đối tượng.
 
