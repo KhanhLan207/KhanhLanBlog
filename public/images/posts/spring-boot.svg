@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="400px" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Spring Boot Header</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="springGradient">
+            <stop stop-color="#4CAF50" offset="0%"></stop>
+            <stop stop-color="#81C784" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#springGradient)" x="0" y="0" width="800" height="400" rx="10"></rect>
+        
+        <!-- Spring Logo -->
+        <g transform="translate(350, 120)">
+            <path d="M100,50 C100,77.6 77.6,100 50,100 C22.4,100 0,77.6 0,50 C0,22.4 22.4,0 50,0 C77.6,0 100,22.4 100,50 Z" fill="#FFFFFF"></path>
+            <path d="M82,35 C82,35 71,25 50,40 C29,55 30,75 30,75" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"></path>
+            <circle fill="#4CAF50" cx="82" cy="35" r="6"></circle>
+            <circle fill="#4CAF50" cx="30" cy="75" r="6"></circle>
+        </g>
+        
+        <!-- Text -->
+        <text font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="300">
+            Spring Boot
+        </text>
+        <text font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" x="400" y="340">
+            Modern Java Framework
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Profile Avatar</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="avatarGradient">
+            <stop stop-color="#4CAF50" offset="0%"></stop>
+            <stop stop-color="#8BC34A" offset="100%"></stop>
+        </linearGradient>
+        <circle id="avatarCircle" cx="100" cy="100" r="100"></circle>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use fill="url(#avatarGradient)" xlink:href="#avatarCircle"></use>
+        <circle stroke="#FFFFFF" stroke-width="4" cx="100" cy="100" r="98"></circle>
+        <!-- Face -->
+        <circle fill="#FFFFFF" cx="100" cy="85" r="40"></circle>
+        <!-- Eyes -->
+        <circle fill="#333333" cx="85" cy="80" r="5"></circle>
+        <circle fill="#333333" cx="115" cy="80" r="5"></circle>
+        <!-- Smile -->
+        <path d="M70,100 Q100,130 130,100" stroke="#333333" stroke-width="4" fill="none"></path>
+        <!-- Body -->
+        <path d="M100,125 L100,180 M70,150 L130,150" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"></path>
+    </g>
+</svg>

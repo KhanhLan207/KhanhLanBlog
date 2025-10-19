@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.150.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f2ea3b09d30c2dc70debdbdc5141d030bdf824671fd21457f4fb8cd35b56a902.css" integrity="sha256-8uo7CdMMLccN69vcUUHQML34JGcf0hRX9PuM01tWqQI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json" title="json">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Blog Cá Nhân - Lập Trình Java &amp; JavaScript (Alt + H)">Blog Cá Nhân - Lập Trình Java &amp; JavaScript</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Trang Chủ">
+                    <span class="active">Trang Chủ</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/profile/" title="Hồ Sơ">
+                    <span>Hồ Sơ</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Danh Mục">
+                    <span>Danh Mục</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Thẻ">
+                    <span>Thẻ</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Tìm kiếm (Alt &#43; /)" accesskey=/>
+                    <span>Tìm kiếm</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<div class="post-content"><h2 id="chào-mừng-đến-với-blog-của-tôi">Chào mừng đến với Blog của tôi!<a hidden class="anchor" aria-hidden="true" href="#chào-mừng-đến-với-blog-của-tôi">#</a></h2>
+<p>Đây là nơi tôi chia sẻ kiến thức và kinh nghiệm về lập trình Java và JavaScript. Blog này được tạo ra với mục đích giúp các bạn mới bắt đầu học lập trình có thể tiếp cận với các khái niệm cơ bản một cách dễ dàng, đồng thời cung cấp những kiến thức nâng cao cho những ai đã có nền tảng.</p>
+<h3 id="các-chủ-đề-chính">Các Chủ Đề Chính<a hidden class="anchor" aria-hidden="true" href="#các-chủ-đề-chính">#</a></h3>
+<ul>
+<li><strong>Java</strong>: Từ cơ bản đến nâng cao, OOP, Collections, Spring Boot</li>
+<li><strong>JavaScript</strong>: Cú pháp, ES6, DOM, Bất đồng bộ, Frameworks</li>
+</ul>
+<h3 id="bài-viết-mới-nhất">Bài Viết Mới Nhất<a hidden class="anchor" aria-hidden="true" href="#bài-viết-mới-nhất">#</a></h3>
+<p>Khám phá các bài viết mới nhất của tôi trong mục <strong>Blog</strong>. Tôi thường xuyên cập nhật nội dung mới, vì vậy hãy ghé thăm thường xuyên để không bỏ lỡ bất kỳ thông tin hữu ích nào.</p>
+<h3 id="về-tôi">Về Tôi<a hidden class="anchor" aria-hidden="true" href="#về-tôi">#</a></h3>
+<p>Để tìm hiểu thêm về tôi và các dự án của tôi, hãy ghé thăm trang <strong>Hồ Sơ</strong>. Tôi luôn mong muốn kết nối với những người có cùng đam mê lập trình.</p>
+<hr>
+<blockquote>
+<p>&ldquo;Học tập không bao giờ là đủ. Mỗi ngày là một cơ hội để học hỏi điều mới.&rdquo;</p></blockquote>
+
+
+</div>
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Chào mừng đến với Blog Cá Nhân của tôi 👋</h1>
+    </header>
+    <div class="entry-content">
+        Blog chia sẻ kiến thức về lập trình Java và JavaScript
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer me"
+        title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/javascript-frameworks.svg" alt="JavaScript Frameworks">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Các Framework JavaScript Phổ Biến
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Các Framework JavaScript Phổ Biến Các framework JavaScript hiện đại đã trở thành công cụ không thể thiếu trong phát triển web. Chúng cung cấp cấu trúc, tối ưu hóa hiệu suất và đơn giản hóa quá trình phát triển ứng dụng web phức tạp.
+Tại Sao Cần Framework? Khi phát triển ứng dụng web phức tạp, việc chỉ sử dụng JavaScript thuần (Vanilla JavaScript) có thể gặp nhiều thách thức:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-28 00:00:00 +0000 UTC'>October 28, 2023</span>&nbsp;·&nbsp;<span>6 min</span></footer>
+  <a class="entry-link" aria-label="post link to Các Framework JavaScript Phổ Biến" href="http://localhost:1313/posts/javascript-frameworks/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/java-header.svg" alt="Java Programming">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ và được sử dụng rộng rãi trong nhiều lĩnh vực từ phát triển ứng dụng di động đến hệ thống doanh nghiệp lớn.
+Lịch Sử Phát Triển Java được phát triển bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Ngôn ngữ này được thiết kế với triết lý “Write Once, Run Anywhere” (WORA), cho phép mã nguồn Java có thể chạy trên bất kỳ thiết bị nào hỗ trợ Java mà không cần biên dịch lại.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-28 00:00:00 +0000 UTC'>October 28, 2023</span>&nbsp;·&nbsp;<span>3 min</span></footer>
+  <a class="entry-link" aria-label="post link to Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ" href="http://localhost:1313/posts/java-basics/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/javascript-header.svg" alt="JavaScript Programming">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web JavaScript là ngôn ngữ lập trình phổ biến nhất trên web, cho phép tạo ra các trang web động và tương tác với người dùng.
+Lịch Sử JavaScript JavaScript được tạo ra bởi Brendan Eich tại Netscape vào năm 1995, ban đầu có tên là Mocha, sau đó đổi thành LiveScript và cuối cùng là JavaScript. Mặc dù có “Java” trong tên, nhưng JavaScript hoàn toàn khác biệt với Java.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-28 00:00:00 +0000 UTC'>October 28, 2023</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web" href="http://localhost:1313/posts/javascript-intro/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/java-collections.svg" alt="Java Collections Framework">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này bao gồm các interfaces, implementations và algorithms.
+Tổng Quan Về Collections Framework Collections Framework trong Java bao gồm:
+Interfaces: Các abstract data types đại diện cho collections Implementations: Các lớp cụ thể triển khai các interfaces Algorithms: Các phương thức thực hiện các thao tác hữu ích như tìm kiếm và sắp xếp Các Interface Chính Collection Interface Interface cơ bản nhất trong hierarchy, định nghĩa các thao tác cơ bản như add, remove, contains.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-28 00:00:00 +0000 UTC'>October 28, 2023</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java" href="http://localhost:1313/posts/java-collections/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/spring-boot.svg" alt="Spring Boot Framework">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Spring Boot - Framework Java Hiện Đại
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Spring Boot - Framework Java Hiện Đại Spring Boot là một framework phổ biến cho phát triển ứng dụng Java, giúp đơn giản hóa quá trình cấu hình và triển khai ứng dụng Spring.
+Giới Thiệu Về Spring Boot Spring Boot là một phần của hệ sinh thái Spring Framework, được phát triển bởi Pivotal Team. Nó cung cấp cách tiếp cận “opinionated” để xây dựng ứng dụng Spring, giúp giảm thiểu thời gian cấu hình và tăng năng suất phát triển.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-28 00:00:00 +0000 UTC'>October 28, 2023</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to Spring Boot - Framework Java Hiện Đại" href="http://localhost:1313/posts/java-spring-boot/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/javascript-async.svg" alt="JavaScript Async">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JavaScript Bất Đồng Bộ - Promises, Async/Await
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>JavaScript Bất Đồng Bộ - Promises, Async/Await JavaScript là ngôn ngữ đơn luồng (single-threaded), nhưng có thể xử lý các tác vụ bất đồng bộ thông qua các cơ chế như callbacks, promises, và async/await.
+Tại Sao Cần Lập Trình Bất Đồng Bộ? Lập trình bất đồng bộ cho phép thực hiện các tác vụ mà không chặn luồng chính, đặc biệt hữu ích cho:
+Gọi API Đọc/ghi tệp Truy vấn cơ sở dữ liệu Tải tài nguyên (hình ảnh, video) Thực hiện các tác vụ tốn thời gian Callbacks Callbacks là cách truyền thống nhất để xử lý bất đồng bộ trong JavaScript.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-26 00:00:00 +0000 UTC'>October 26, 2023</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to JavaScript Bất Đồng Bộ - Promises, Async/Await" href="http://localhost:1313/posts/javascript-async/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/javascript-dom.svg" alt="JavaScript DOM">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JavaScript DOM - Tương Tác Với Trang Web
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>JavaScript DOM - Tương Tác Với Trang Web Document Object Model (DOM) là một giao diện lập trình cho phép JavaScript tương tác với HTML và CSS, giúp tạo ra các trang web động và tương tác.
+DOM Là Gì? DOM biểu diễn trang web dưới dạng cấu trúc cây, trong đó mỗi thẻ HTML là một nút (node). JavaScript có thể truy cập và thay đổi tất cả các phần tử trong cây DOM này.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-25 00:00:00 +0000 UTC'>October 25, 2023</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to JavaScript DOM - Tương Tác Với Trang Web" href="http://localhost:1313/posts/javascript-dom/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/javascript-es6.svg" alt="JavaScript ES6">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JavaScript ES6 - Những Tính Năng Hiện Đại
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>JavaScript ES6 - Những Tính Năng Hiện Đại ECMAScript 6 (ES6), còn được gọi là ECMAScript 2015, là một bản cập nhật lớn cho JavaScript, giới thiệu nhiều tính năng mới giúp viết mã dễ dàng và hiệu quả hơn.
+Các Tính Năng Chính Của ES6 1. Let và Const ES6 giới thiệu hai từ khóa mới để khai báo biến: let và const.
+// let - phạm vi block let x = 10; if (true) { let x = 20; // Biến x khác với x ở ngoài console.log(x); // 20 } console.log(x); // 10 // const - hằng số const PI = 3.14; // PI = 3.15; // Lỗi: không thể gán lại giá trị cho hằng số 2. Arrow Functions Arrow functions cung cấp cú pháp ngắn gọn hơn để viết biểu thức hàm.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-24 00:00:00 +0000 UTC'>October 24, 2023</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to JavaScript ES6 - Những Tính Năng Hiện Đại" href="http://localhost:1313/posts/javascript-es6/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/posts/java-oop.svg" alt="Java OOP">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Lập Trình Hướng Đối Tượng Trong Java
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Lập Trình Hướng Đối Tượng Trong Java Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một trong những đặc điểm quan trọng nhất của Java. Bài viết này sẽ giới thiệu các khái niệm cơ bản về OOP trong Java.
+Các Nguyên Lý Cơ Bản Của OOP 1. Tính Đóng Gói (Encapsulation) Tính đóng gói cho phép ẩn các chi tiết triển khai và chỉ hiển thị chức năng cần thiết cho người dùng.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-21 00:00:00 +0000 UTC'>October 21, 2023</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to Lập Trình Hướng Đối Tượng Trong Java" href="http://localhost:1313/posts/java-oop/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Blog Cá Nhân - Lập Trình Java &amp; JavaScript</a></span> · 
+        Xây dựng với ❤️ bởi Phong · Theo dõi RSS: <a href="/index.xml">/index.xml</a> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><script>
+(function(){
+  const onReady = (fn) => document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn);
+  onReady(() => {
+    
+    const bar = document.createElement('div');
+    bar.id = 'reading-progress';
+    document.body.appendChild(bar);
+    const updateProgress = () => {
+      const doc = document.documentElement;
+      const scrollTop = doc.scrollTop || document.body.scrollTop;
+      const height = doc.scrollHeight - doc.clientHeight;
+      const ratio = height > 0 ? (scrollTop / height) : 0;
+      bar.style.width = (ratio * 100).toFixed(2) + '%';
+    };
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+
+    
+    const content = document.querySelector('.post-single .post-content') || document.querySelector('.entry-content') || document.querySelector('.post-content');
+    if (content) {
+      const selectors = 'p, h2, h3, blockquote, pre, table';
+      content.querySelectorAll(selectors).forEach(el => el.classList.add('reveal'));
+      
+      content.querySelectorAll('ul').forEach(ul => ul.classList.add('reveal-stagger'));
+    }
+    
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => io.observe(el));
+
+    
+    const covers = document.querySelectorAll('.post-single .post-cover img, .post-entry .cover img, figure > img');
+    const parallax = () => {
+      covers.forEach(img => {
+        const rect = img.getBoundingClientRect();
+        const viewH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        if (rect.bottom >= 0 && rect.top <= viewH) {
+          const offset = (rect.top - viewH / 2) * -0.04; 
+          img.style.transform = `translateY(${offset.toFixed(2)}px)`;
+        }
+      });
+    };
+    window.addEventListener('scroll', parallax, { passive: true });
+    parallax();
+  });
+})();
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

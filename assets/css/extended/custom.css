@@ -1,0 +1,359 @@
+/* Tùy chỉnh giao diện */
+
+:root {
+  --content: #373737;
+  --border: #e9e9e9;
+  --main: #4caf50; /* Màu xanh lá sáng */
+  --main-light: #81c784; /* Màu xanh lá nhạt hơn */
+  --main-dark: #2e7d32; /* Màu xanh lá đậm hơn */
+  --accent: #8bc34a; /* Màu xanh lá phụ */
+  --hljs-bg: #f5f5f5;
+}
+
+.dark {
+  --content: #eee;
+  --border: #333;
+  --main: #66bb6a; /* Màu xanh lá sáng cho dark mode */
+  --main-light: #a5d6a7; /* Màu xanh lá nhạt hơn cho dark mode */
+  --main-dark: #388e3c; /* Màu xanh lá đậm hơn cho dark mode */
+  --accent: #9ccc65; /* Màu xanh lá phụ cho dark mode */
+  --hljs-bg: #2d2d2d;
+}
+
+/* Tùy chỉnh header */
+.nav {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.top-header {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, rgba(76, 175, 80, 0.05), rgba(139, 195, 74, 0.05));
+}
+
+.logo a {
+  color: var(--main-dark) !important;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.logo a:hover {
+  text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.menu a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.menu a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main);
+  transition: width 0.3s ease;
+}
+
+.menu a:hover {
+  color: var(--main);
+}
+
+.menu a:hover:before {
+  width: 100%;
+}
+
+.theme-toggle {
+  background-color: var(--main-light);
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(30deg);
+  opacity: 1;
+}
+
+/* Tùy chỉnh post */
+.post-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: var(--main-dark);
+  position: relative;
+  display: inline-block;
+}
+
+.post-title:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background: linear-gradient(to right, var(--main), var(--accent));
+  transform: scaleX(0.7);
+  transition: transform 0.3s ease;
+}
+
+.post-title:hover:after {
+  transform: scaleX(1);
+}
+
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  margin: 1.5em 0 0.8em;
+  color: var(--main-dark);
+  position: relative;
+  padding-left: 15px;
+}
+
+.post-content h1:before,
+.post-content h2:before,
+.post-content h3:before,
+.post-content h4:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: var(--main);
+  border-radius: 3px;
+}
+
+.post-content h1 {
+  font-size: 2rem;
+}
+
+.post-content h2 {
+  font-size: 1.7rem;
+}
+
+.post-content h3 {
+  font-size: 1.4rem;
+}
+
+.post-content p {
+  margin: 1em 0;
+  transition: transform 0.2s ease;
+}
+
+.post-content a {
+  color: var(--main);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--main-light);
+  transition: all 0.3s ease;
+}
+
+.post-content a:hover {
+  color: var(--main-dark);
+  border-bottom: 1px solid var(--main);
+}
+
+.post-content code {
+  background: var(--hljs-bg);
+  padding: 2px 5px;
+  border-radius: 3px;
+  border-left: 2px solid var(--main);
+}
+
+.post-content pre {
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--main);
+}
+
+/* Tùy chỉnh trang chủ */
+.profile-mode .profile {
+  max-width: 720px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 4px solid var(--main);
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+  transition: all 0.5s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(76, 175, 80, 0.6);
+}
+
+.social-icons a {
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+
+.home-info .entry-content {
+  animation: slideIn 0.8s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Tùy chỉnh footer */
+.footer {
+  font-size: 0.9rem;
+  padding: 30px 0;
+  background: linear-gradient(to right, rgba(76, 175, 80, 0.05), rgba(139, 195, 74, 0.05));
+  border-top: 3px solid var(--main-light);
+  position: relative;
+}
+
+.footer:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, var(--main), var(--accent), var(--main-light));
+  opacity: 0.7;
+}
+
+.footer a {
+  color: var(--main);
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--main-dark);
+  text-decoration: underline;
+}
+
+/* Tùy chỉnh nút */
+.button {
+  background: linear-gradient(to right, var(--main), var(--main-light));
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, var(--main-dark), var(--main));
+  z-index: -1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(76, 175, 80, 0.4);
+}
+
+.button:hover:before {
+  opacity: 1;
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(76, 175, 80, 0.4);
+}
+
+/* Tùy chỉnh card bài viết */
+.post-entry {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--main);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.post-entry:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--main-light) 0%, transparent 100%);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.post-entry:hover:before {
+  opacity: 0.15;
+  transform: scale(1);
+}
+
+.post-entry .entry-header h2 {
+  color: var(--main-dark);
+  transition: color 0.3s ease;
+}
+
+.post-entry:hover .entry-header h2 {
+  color: var(--main);
+}
+
+.post-entry .entry-content {
+  transition: all 0.3s ease;
+}
+
+.post-entry:hover .entry-content {
+  transform: translateX(5px);
+}
+
+/* Tùy chỉnh bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+table th {
+  background-color: var(--main);
+  color: white;
+  font-weight: 500;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid var(--border);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--hljs-bg);
+}

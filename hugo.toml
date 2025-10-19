@@ -1,0 +1,87 @@
+baseURL = "https://KhanhLan207.github.io/KhanhLanBlog/"
+languageCode = 'vi-vn'
+title = 'Blog Cá Nhân - Lập Trình Java & JavaScript'
+theme = 'PaperMod'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Cấu hình menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Trang Chủ"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "profile"
+    name = "Hồ Sơ"
+    url = "/profile/"
+    weight = 30
+  [[menu.main]]
+    identifier = "categories"
+    name = "Danh Mục"
+    url = "/categories/"
+    weight = 40
+  [[menu.main]]
+    identifier = "tags"
+    name = "Thẻ"
+    url = "/tags/"
+    weight = 50
+  [[menu.main]]
+    identifier = "search"
+    name = "Tìm kiếm"
+    url = "/search/"
+    weight = 60
+
+# Cấu hình tham số
+[params]
+  # Cấu hình chung
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  
+  # Cấu hình trang chủ
+  [params.homeInfoParams]
+    Title = "Chào mừng đến với Blog Cá Nhân của tôi 👋"
+    Content = "Blog chia sẻ kiến thức về lập trình Java và JavaScript"
+  
+  # Cấu hình hình đại diện
+  [params.profileMode]
+    enabled = false
+    title = "Hồ Sơ Cá Nhân"
+    subtitle = "Lập trình viên Java & JavaScript"
+    
+  # Cấu hình các biểu tượng xã hội
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/"
+
+  # Footer
+  [params.footer]
+    text = "Xây dựng với ❤️ bởi Phong · Theo dõi RSS: [/index.xml](/index.xml)"
+
+  # Cấu hình Fuse.js cho tìm kiếm
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.3
+    minMatchCharLength = 2
+    keys = ["title", "content", "summary"]

@@ -1,0 +1,86 @@
+/* Additional effects: reading progress, reveal, parallax, headings */
+
+/* Reading progress bar */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  z-index: 9999;
+  background: linear-gradient(90deg, #4CAF50, #81C784);
+  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.4);
+  transition: width 0.12s ease-out;
+}
+
+/* Reveal animation base */
+.reveal { opacity: 0; transform: translateY(16px); }
+.reveal.is-visible { opacity: 1; transform: translateY(0); transition: opacity 480ms ease, transform 480ms ease; }
+
+/* Stagger utility */
+.reveal-stagger > * { opacity: 0; transform: translateY(12px); }
+.reveal-stagger.is-visible > * { opacity: 1; transform: translateY(0); transition: opacity 400ms ease, transform 400ms ease; }
+.reveal-stagger.is-visible > *:nth-child(1) { transition-delay: 40ms; }
+.reveal-stagger.is-visible > *:nth-child(2) { transition-delay: 80ms; }
+.reveal-stagger.is-visible > *:nth-child(3) { transition-delay: 120ms; }
+.reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 160ms; }
+.reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 200ms; }
+
+/* Cover parallax + hover tilt */
+.post-single .post-cover img,
+.post-entry .cover img,
+figure > img {
+  will-change: transform;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+
+/* Tilt hover effect */
+.post-single .post-cover img:hover,
+.post-entry .cover img:hover,
+figure > img:hover {
+  transform: translateZ(0) rotateX(1.5deg) rotateY(-1.5deg) scale(1.02);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.22);
+}
+
+/* Animated heading underline */
+.post-content h2,
+.post-content h3 { position: relative; }
+.post-content h2::after,
+.post-content h3::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -6px;
+  height: 3px; width: 0;
+  background: linear-gradient(90deg, #2E7D32, #81C784);
+  border-radius: 2px;
+  transition: width 400ms ease;
+}
+.post-content h2:hover::after,
+.post-content h3:hover::after { width: 100%; }
+
+/* Animated bullets */
+.post-content ul li { position: relative; padding-left: 18px; }
+.post-content ul li::before {
+  content: ""; position: absolute; left: 0; top: 0.6em;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #A5D6A7 0%, #4CAF50 60%);
+  box-shadow: 0 0 8px rgba(76,175,80,0.6);
+  transform: scale(0.8);
+  transition: transform 200ms ease, filter 200ms ease;
+}
+.post-content ul li:hover::before { transform: scale(1); filter: brightness(1.1); }
+
+/* Blockquote glow */
+.post-content blockquote {
+  border-left: 4px solid #4CAF50;
+  background: linear-gradient(90deg, rgba(76,175,80,0.06), transparent);
+  box-shadow: inset 0 0 24px rgba(76,175,80,0.08);
+}
+
+/* Code block accent */
+.post-content pre {
+  border: 1px solid rgba(76,175,80,0.3);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}

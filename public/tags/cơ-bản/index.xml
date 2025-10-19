@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cơ Bản on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
+    <link>http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/</link>
+    <description>Recent content in Cơ Bản on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ</title>
+      <link>http://localhost:1313/posts/java-basics/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-basics/</guid>
+      <description>&lt;h1 id=&#34;cơ-bản-về-java---ngôn-ngữ-lập-trình-mạnh-mẽ&#34;&gt;Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-header.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ và được sử dụng rộng rãi trong nhiều lĩnh vực từ phát triển ứng dụng di động đến hệ thống doanh nghiệp lớn.&lt;/p&gt;
+&lt;h2 id=&#34;lịch-sử-phát-triển&#34;&gt;Lịch Sử Phát Triển&lt;/h2&gt;
+&lt;p&gt;Java được phát triển bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Ngôn ngữ này được thiết kế với triết lý &amp;ldquo;Write Once, Run Anywhere&amp;rdquo; (WORA), cho phép mã nguồn Java có thể chạy trên bất kỳ thiết bị nào hỗ trợ Java mà không cần biên dịch lại.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

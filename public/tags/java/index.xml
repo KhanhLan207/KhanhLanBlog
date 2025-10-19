@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
+    <link>http://localhost:1313/tags/java/</link>
+    <description>Recent content in Java on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ</title>
+      <link>http://localhost:1313/posts/java-basics/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-basics/</guid>
+      <description>&lt;h1 id=&#34;cơ-bản-về-java---ngôn-ngữ-lập-trình-mạnh-mẽ&#34;&gt;Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-header.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ và được sử dụng rộng rãi trong nhiều lĩnh vực từ phát triển ứng dụng di động đến hệ thống doanh nghiệp lớn.&lt;/p&gt;
+&lt;h2 id=&#34;lịch-sử-phát-triển&#34;&gt;Lịch Sử Phát Triển&lt;/h2&gt;
+&lt;p&gt;Java được phát triển bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Ngôn ngữ này được thiết kế với triết lý &amp;ldquo;Write Once, Run Anywhere&amp;rdquo; (WORA), cho phép mã nguồn Java có thể chạy trên bất kỳ thiết bị nào hỗ trợ Java mà không cần biên dịch lại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java</title>
+      <link>http://localhost:1313/posts/java-collections/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-collections/</guid>
+      <description>&lt;h1 id=&#34;java-collections-framework---cấu-trúc-dữ-liệu-trong-java&#34;&gt;Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java Collections&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-collections.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này bao gồm các interfaces, implementations và algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;tổng-quan-về-collections-framework&#34;&gt;Tổng Quan Về Collections Framework&lt;/h2&gt;
+&lt;p&gt;Collections Framework trong Java bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Interfaces&lt;/strong&gt;: Các abstract data types đại diện cho collections&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementations&lt;/strong&gt;: Các lớp cụ thể triển khai các interfaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithms&lt;/strong&gt;: Các phương thức thực hiện các thao tác hữu ích như tìm kiếm và sắp xếp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;các-interface-chính&#34;&gt;Các Interface Chính&lt;/h2&gt;
+&lt;h3 id=&#34;collection-interface&#34;&gt;Collection Interface&lt;/h3&gt;
+&lt;p&gt;Interface cơ bản nhất trong hierarchy, định nghĩa các thao tác cơ bản như add, remove, contains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring Boot - Framework Java Hiện Đại</title>
+      <link>http://localhost:1313/posts/java-spring-boot/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-spring-boot/</guid>
+      <description>&lt;h1 id=&#34;spring-boot---framework-java-hiện-đại&#34;&gt;Spring Boot - Framework Java Hiện Đại&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Spring Boot&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/spring-boot.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Spring Boot là một framework phổ biến cho phát triển ứng dụng Java, giúp đơn giản hóa quá trình cấu hình và triển khai ứng dụng Spring.&lt;/p&gt;
+&lt;h2 id=&#34;giới-thiệu-về-spring-boot&#34;&gt;Giới Thiệu Về Spring Boot&lt;/h2&gt;
+&lt;p&gt;Spring Boot là một phần của hệ sinh thái Spring Framework, được phát triển bởi Pivotal Team. Nó cung cấp cách tiếp cận &amp;ldquo;opinionated&amp;rdquo; để xây dựng ứng dụng Spring, giúp giảm thiểu thời gian cấu hình và tăng năng suất phát triển.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>http://localhost:1313/posts/java-oop/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-oop/</guid>
+      <description>&lt;h1 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java OOP&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-oop.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một trong những đặc điểm quan trọng nhất của Java. Bài viết này sẽ giới thiệu các khái niệm cơ bản về OOP trong Java.&lt;/p&gt;
+&lt;h2 id=&#34;các-nguyên-lý-cơ-bản-của-oop&#34;&gt;Các Nguyên Lý Cơ Bản Của OOP&lt;/h2&gt;
+&lt;h3 id=&#34;1-tính-đóng-gói-encapsulation&#34;&gt;1. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;
+&lt;p&gt;Tính đóng gói cho phép ẩn các chi tiết triển khai và chỉ hiển thị chức năng cần thiết cho người dùng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <title>JavaScript DOM Header</title>
+  <defs>
+    <linearGradient id="gDOM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" rx="12" fill="url(#gDOM)"/>
+  <!-- DOM tree -->
+  <g transform="translate(240,90)" stroke="#fff" stroke-width="3" fill="none">
+    <rect x="120" y="0" width="120" height="50" rx="8" fill="#fff" opacity="0.15"/>
+    <text x="180" y="32" text-anchor="middle" font-family="Arial" font-size="18" fill="#FFFFFF">html</text>
+    <rect x="20" y="100" width="120" height="45" rx="8" fill="#fff" opacity="0.15"/>
+    <text x="80" y="128" text-anchor="middle" font-family="Arial" font-size="16" fill="#FFFFFF">head</text>
+    <rect x="240" y="100" width="120" height="45" rx="8" fill="#fff" opacity="0.15"/>
+    <text x="300" y="128" text-anchor="middle" font-family="Arial" font-size="16" fill="#FFFFFF">body</text>
+    <line x1="180" y1="50" x2="80" y2="100"/>
+    <line x1="180" y1="50" x2="300" y2="100"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="300" text-anchor="middle" font-family="Arial" font-size="46" font-weight="bold" fill="#FFFFFF">JavaScript DOM</text>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial" font-size="22" fill="#FFFFFF">Query • Update • Events</text>
+</svg>

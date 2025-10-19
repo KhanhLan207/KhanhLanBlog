@@ -1,0 +1,54 @@
+<script>
+(function(){
+  const onReady = (fn) => document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn);
+  onReady(() => {
+    // Reading progress bar
+    const bar = document.createElement('div');
+    bar.id = 'reading-progress';
+    document.body.appendChild(bar);
+    const updateProgress = () => {
+      const doc = document.documentElement;
+      const scrollTop = doc.scrollTop || document.body.scrollTop;
+      const height = doc.scrollHeight - doc.clientHeight;
+      const ratio = height > 0 ? (scrollTop / height) : 0;
+      bar.style.width = (ratio * 100).toFixed(2) + '%';
+    };
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+
+    // Add reveal classes to post content
+    const content = document.querySelector('.post-single .post-content') || document.querySelector('.entry-content') || document.querySelector('.post-content');
+    if (content) {
+      const selectors = 'p, h2, h3, blockquote, pre, table';
+      content.querySelectorAll(selectors).forEach(el => el.classList.add('reveal'));
+      // Stagger lists
+      content.querySelectorAll('ul').forEach(ul => ul.classList.add('reveal-stagger'));
+    }
+    // IntersectionObserver for reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => io.observe(el));
+
+    // Parallax for cover images
+    const covers = document.querySelectorAll('.post-single .post-cover img, .post-entry .cover img, figure > img');
+    const parallax = () => {
+      covers.forEach(img => {
+        const rect = img.getBoundingClientRect();
+        const viewH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        if (rect.bottom >= 0 && rect.top <= viewH) {
+          const offset = (rect.top - viewH / 2) * -0.04; // subtle
+          img.style.transform = `translateY(${offset.toFixed(2)}px)`;
+        }
+      });
+    };
+    window.addEventListener('scroll', parallax, { passive: true });
+    parallax();
+  });
+})();
+</script>

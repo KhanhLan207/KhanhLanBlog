@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="400px" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Java Collections Header</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="collectionsGradient">
+            <stop stop-color="#4CAF50" offset="0%"></stop>
+            <stop stop-color="#2E7D32" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#collectionsGradient)" x="0" y="0" width="800" height="400" rx="10"></rect>
+        
+        <!-- Collections Diagram -->
+        <g transform="translate(300, 100)">
+            <!-- Collection Interface -->
+            <rect fill="#FFFFFF" x="0" y="0" width="200" height="50" rx="5"></rect>
+            <text font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4CAF50" text-anchor="middle" x="100" y="30">
+                Collection
+            </text>
+            
+            <!-- List, Set, Queue -->
+            <rect fill="#FFFFFF" x="-100" y="80" width="120" height="40" rx="5"></rect>
+            <text font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50" text-anchor="middle" x="-40" y="105">
+                List
+            </text>
+            
+            <rect fill="#FFFFFF" x="40" y="80" width="120" height="40" rx="5"></rect>
+            <text font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50" text-anchor="middle" x="100" y="105">
+                Set
+            </text>
+            
+            <rect fill="#FFFFFF" x="180" y="80" width="120" height="40" rx="5"></rect>
+            <text font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50" text-anchor="middle" x="240" y="105">
+                Queue
+            </text>
+            
+            <!-- Connection Lines -->
+            <line x1="100" y1="50" x2="-40" y2="80" stroke="#FFFFFF" stroke-width="2"></line>
+            <line x1="100" y1="50" x2="100" y2="80" stroke="#FFFFFF" stroke-width="2"></line>
+            <line x1="100" y1="50" x2="240" y2="80" stroke="#FFFFFF" stroke-width="2"></line>
+        </g>
+        
+        <!-- Text -->
+        <text font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="300">
+            Java Collections
+        </text>
+        <text font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" x="400" y="340">
+            Powerful Data Structures Framework
+        </text>
+    </g>
+</svg>

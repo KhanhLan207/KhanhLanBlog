@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OOP on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
+    <link>http://localhost:1313/tags/oop/</link>
+    <description>Recent content in OOP on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>http://localhost:1313/posts/java-oop/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-oop/</guid>
+      <description>&lt;h1 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java OOP&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-oop.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một trong những đặc điểm quan trọng nhất của Java. Bài viết này sẽ giới thiệu các khái niệm cơ bản về OOP trong Java.&lt;/p&gt;
+&lt;h2 id=&#34;các-nguyên-lý-cơ-bản-của-oop&#34;&gt;Các Nguyên Lý Cơ Bản Của OOP&lt;/h2&gt;
+&lt;h3 id=&#34;1-tính-đóng-gói-encapsulation&#34;&gt;1. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;
+&lt;p&gt;Tính đóng gói cho phép ẩn các chi tiết triển khai và chỉ hiển thị chức năng cần thiết cho người dùng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

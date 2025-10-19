@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="400px" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Java Header</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="javaGradient">
+            <stop stop-color="#4CAF50" offset="0%"></stop>
+            <stop stop-color="#2E7D32" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="url(#javaGradient)" x="0" y="0" width="800" height="400" rx="10"></rect>
+        
+        <!-- Java Cup Logo -->
+        <g transform="translate(350, 120)">
+            <path d="M67.4,96.2c-13.3,2.8-27.2,2.8-40.5,0c0,0-2.2-0.9-2.2,1.3c0,1.5,0.2,2.2,1.2,2.6c12.8,3.7,29.8,3.7,42.6,0c1-0.4,1.2-1.1,1.2-2.6C69.6,95.3,67.4,96.2,67.4,96.2z" fill="#FFFFFF"></path>
+            <path d="M77.8,107.5c0-1.6-3.5-3-3.5-3c0,0.8-0.6,1.7-1.8,2.5c-4.6,3.2-17.9,5.5-32.4,5.5c-14.5,0-27.8-2.3-32.4-5.5c-1.2-0.8-1.8-1.7-1.8-2.5c0,0-3.5,1.4-3.5,3c0,4.4,19.4,10.2,37.7,10.2S77.8,111.9,77.8,107.5z" fill="#FFFFFF"></path>
+            <path d="M40,0c0,0-28.2,28.2,18.1,35.9c0,0-4.9,20.5-15.8,28.2c0,0,16.9-8.7,25.6-24.6C77.1,23.6,58.1,13.8,40,0z" fill="#FFFFFF"></path>
+            <path d="M42.1,50.6c0,0,15.8,16.4-14.8,29.2c0,0-5.7,3.3,0,6.6c0,0,24.6,0,29.7-13.1C62.1,60.4,53.4,55.7,42.1,50.6z" fill="#FFFFFF"></path>
+        </g>
+        
+        <!-- Text -->
+        <text font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="300">
+            Java Programming
+        </text>
+        <text font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" x="400" y="340">
+            Powerful, Object-Oriented, Platform Independent
+        </text>
+    </g>
+</svg>

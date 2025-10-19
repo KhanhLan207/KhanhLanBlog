@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Blog Cá Nhân - Lập Trình Java &amp; JavaScript</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Các Framework JavaScript Phổ Biến</title>
+      <link>http://localhost:1313/posts/javascript-frameworks/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-frameworks/</guid>
+      <description>&lt;h1 id=&#34;các-framework-javascript-phổ-biến&#34;&gt;Các Framework JavaScript Phổ Biến&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript Frameworks&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-frameworks.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Các framework JavaScript hiện đại đã trở thành công cụ không thể thiếu trong phát triển web. Chúng cung cấp cấu trúc, tối ưu hóa hiệu suất và đơn giản hóa quá trình phát triển ứng dụng web phức tạp.&lt;/p&gt;
+&lt;h2 id=&#34;tại-sao-cần-framework&#34;&gt;Tại Sao Cần Framework?&lt;/h2&gt;
+&lt;p&gt;Khi phát triển ứng dụng web phức tạp, việc chỉ sử dụng JavaScript thuần (Vanilla JavaScript) có thể gặp nhiều thách thức:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ</title>
+      <link>http://localhost:1313/posts/java-basics/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-basics/</guid>
+      <description>&lt;h1 id=&#34;cơ-bản-về-java---ngôn-ngữ-lập-trình-mạnh-mẽ&#34;&gt;Cơ Bản Về Java - Ngôn Ngữ Lập Trình Mạnh Mẽ&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-header.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, mạnh mẽ và được sử dụng rộng rãi trong nhiều lĩnh vực từ phát triển ứng dụng di động đến hệ thống doanh nghiệp lớn.&lt;/p&gt;
+&lt;h2 id=&#34;lịch-sử-phát-triển&#34;&gt;Lịch Sử Phát Triển&lt;/h2&gt;
+&lt;p&gt;Java được phát triển bởi James Gosling tại Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Ngôn ngữ này được thiết kế với triết lý &amp;ldquo;Write Once, Run Anywhere&amp;rdquo; (WORA), cho phép mã nguồn Java có thể chạy trên bất kỳ thiết bị nào hỗ trợ Java mà không cần biên dịch lại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web</title>
+      <link>http://localhost:1313/posts/javascript-intro/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-intro/</guid>
+      <description>&lt;h1 id=&#34;giới-thiệu-về-javascript---ngôn-ngữ-của-web&#34;&gt;Giới Thiệu Về JavaScript - Ngôn Ngữ Của Web&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript Logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-header.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến nhất trên web, cho phép tạo ra các trang web động và tương tác với người dùng.&lt;/p&gt;
+&lt;h2 id=&#34;lịch-sử-javascript&#34;&gt;Lịch Sử JavaScript&lt;/h2&gt;
+&lt;p&gt;JavaScript được tạo ra bởi Brendan Eich tại Netscape vào năm 1995, ban đầu có tên là Mocha, sau đó đổi thành LiveScript và cuối cùng là JavaScript. Mặc dù có &amp;ldquo;Java&amp;rdquo; trong tên, nhưng JavaScript hoàn toàn khác biệt với Java.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java</title>
+      <link>http://localhost:1313/posts/java-collections/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-collections/</guid>
+      <description>&lt;h1 id=&#34;java-collections-framework---cấu-trúc-dữ-liệu-trong-java&#34;&gt;Java Collections Framework - Cấu Trúc Dữ Liệu Trong Java&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java Collections&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-collections.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Java Collections Framework cung cấp một kiến trúc để lưu trữ và thao tác với các nhóm đối tượng. Framework này bao gồm các interfaces, implementations và algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;tổng-quan-về-collections-framework&#34;&gt;Tổng Quan Về Collections Framework&lt;/h2&gt;
+&lt;p&gt;Collections Framework trong Java bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Interfaces&lt;/strong&gt;: Các abstract data types đại diện cho collections&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementations&lt;/strong&gt;: Các lớp cụ thể triển khai các interfaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithms&lt;/strong&gt;: Các phương thức thực hiện các thao tác hữu ích như tìm kiếm và sắp xếp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;các-interface-chính&#34;&gt;Các Interface Chính&lt;/h2&gt;
+&lt;h3 id=&#34;collection-interface&#34;&gt;Collection Interface&lt;/h3&gt;
+&lt;p&gt;Interface cơ bản nhất trong hierarchy, định nghĩa các thao tác cơ bản như add, remove, contains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring Boot - Framework Java Hiện Đại</title>
+      <link>http://localhost:1313/posts/java-spring-boot/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-spring-boot/</guid>
+      <description>&lt;h1 id=&#34;spring-boot---framework-java-hiện-đại&#34;&gt;Spring Boot - Framework Java Hiện Đại&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Spring Boot&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/spring-boot.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Spring Boot là một framework phổ biến cho phát triển ứng dụng Java, giúp đơn giản hóa quá trình cấu hình và triển khai ứng dụng Spring.&lt;/p&gt;
+&lt;h2 id=&#34;giới-thiệu-về-spring-boot&#34;&gt;Giới Thiệu Về Spring Boot&lt;/h2&gt;
+&lt;p&gt;Spring Boot là một phần của hệ sinh thái Spring Framework, được phát triển bởi Pivotal Team. Nó cung cấp cách tiếp cận &amp;ldquo;opinionated&amp;rdquo; để xây dựng ứng dụng Spring, giúp giảm thiểu thời gian cấu hình và tăng năng suất phát triển.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Bất Đồng Bộ - Promises, Async/Await</title>
+      <link>http://localhost:1313/posts/javascript-async/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-async/</guid>
+      <description>&lt;h1 id=&#34;javascript-bất-đồng-bộ---promises-asyncawait&#34;&gt;JavaScript Bất Đồng Bộ - Promises, Async/Await&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript Async&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-async.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;JavaScript là ngôn ngữ đơn luồng (single-threaded), nhưng có thể xử lý các tác vụ bất đồng bộ thông qua các cơ chế như callbacks, promises, và async/await.&lt;/p&gt;
+&lt;h2 id=&#34;tại-sao-cần-lập-trình-bất-đồng-bộ&#34;&gt;Tại Sao Cần Lập Trình Bất Đồng Bộ?&lt;/h2&gt;
+&lt;p&gt;Lập trình bất đồng bộ cho phép thực hiện các tác vụ mà không chặn luồng chính, đặc biệt hữu ích cho:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gọi API&lt;/li&gt;
+&lt;li&gt;Đọc/ghi tệp&lt;/li&gt;
+&lt;li&gt;Truy vấn cơ sở dữ liệu&lt;/li&gt;
+&lt;li&gt;Tải tài nguyên (hình ảnh, video)&lt;/li&gt;
+&lt;li&gt;Thực hiện các tác vụ tốn thời gian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;callbacks&#34;&gt;Callbacks&lt;/h2&gt;
+&lt;p&gt;Callbacks là cách truyền thống nhất để xử lý bất đồng bộ trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript DOM - Tương Tác Với Trang Web</title>
+      <link>http://localhost:1313/posts/javascript-dom/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-dom/</guid>
+      <description>&lt;h1 id=&#34;javascript-dom---tương-tác-với-trang-web&#34;&gt;JavaScript DOM - Tương Tác Với Trang Web&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript DOM&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-dom.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Document Object Model (DOM) là một giao diện lập trình cho phép JavaScript tương tác với HTML và CSS, giúp tạo ra các trang web động và tương tác.&lt;/p&gt;
+&lt;h2 id=&#34;dom-là-gì&#34;&gt;DOM Là Gì?&lt;/h2&gt;
+&lt;p&gt;DOM biểu diễn trang web dưới dạng cấu trúc cây, trong đó mỗi thẻ HTML là một nút (node). JavaScript có thể truy cập và thay đổi tất cả các phần tử trong cây DOM này.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript ES6 - Những Tính Năng Hiện Đại</title>
+      <link>http://localhost:1313/posts/javascript-es6/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-es6/</guid>
+      <description>&lt;h1 id=&#34;javascript-es6---những-tính-năng-hiện-đại&#34;&gt;JavaScript ES6 - Những Tính Năng Hiện Đại&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;JavaScript ES6&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/javascript-es6.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ECMAScript 6 (ES6), còn được gọi là ECMAScript 2015, là một bản cập nhật lớn cho JavaScript, giới thiệu nhiều tính năng mới giúp viết mã dễ dàng và hiệu quả hơn.&lt;/p&gt;
+&lt;h2 id=&#34;các-tính-năng-chính-của-es6&#34;&gt;Các Tính Năng Chính Của ES6&lt;/h2&gt;
+&lt;h3 id=&#34;1-let-và-const&#34;&gt;1. Let và Const&lt;/h3&gt;
+&lt;p&gt;ES6 giới thiệu hai từ khóa mới để khai báo biến: &lt;code&gt;let&lt;/code&gt; và &lt;code&gt;const&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// let - phạm vi block
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;// Biến x khác với x ở ngoài
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 20
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 10
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// const - hằng số
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PI&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// PI = 3.15; // Lỗi: không thể gán lại giá trị cho hằng số
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-arrow-functions&#34;&gt;2. Arrow Functions&lt;/h3&gt;
+&lt;p&gt;Arrow functions cung cấp cú pháp ngắn gọn hơn để viết biểu thức hàm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java</title>
+      <link>http://localhost:1313/posts/java-oop/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-oop/</guid>
+      <description>&lt;h1 id=&#34;lập-trình-hướng-đối-tượng-trong-java&#34;&gt;Lập Trình Hướng Đối Tượng Trong Java&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;Java OOP&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/posts/java-oop.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một trong những đặc điểm quan trọng nhất của Java. Bài viết này sẽ giới thiệu các khái niệm cơ bản về OOP trong Java.&lt;/p&gt;
+&lt;h2 id=&#34;các-nguyên-lý-cơ-bản-của-oop&#34;&gt;Các Nguyên Lý Cơ Bản Của OOP&lt;/h2&gt;
+&lt;h3 id=&#34;1-tính-đóng-gói-encapsulation&#34;&gt;1. Tính Đóng Gói (Encapsulation)&lt;/h3&gt;
+&lt;p&gt;Tính đóng gói cho phép ẩn các chi tiết triển khai và chỉ hiển thị chức năng cần thiết cho người dùng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
