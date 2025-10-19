@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/KhanhLanBlog/profile/</loc>
+    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/KhanhLanBlog/tags/angular/</loc>
     <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -103,9 +106,6 @@
   </url><url>
     <loc>http://localhost:1313/KhanhLanBlog/tags/oop/</loc>
     <lastmod>2023-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/KhanhLanBlog/profile/</loc>
-    <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/KhanhLanBlog/search/</loc>
   </url>

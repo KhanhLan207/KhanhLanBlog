@@ -14,7 +14,7 @@ draft: false
 
 ## Personal Profile
 
-Tôi là sinh viên năm ba ngành Phân tích dữ liệu với kinh nghiệm tham gia các dự án về dữ liệu, phần mềm và mạng máy tính. Với nền tảng học thuật tốt, tinh thần ham học hỏi và đam mê giảng dạy, tôi mong muốn phát triển kỹ năng để trở thành kỹ sư giỏi trong 5 năm tới.
+Tôi là sinh viên năm ba ngành Phân tích dữ liệu với kinh nghiệm tham gia các dự án về dữ liệu, phần mềm và mạng máy tính. Với nền tảng học thuật tốt, tinh thần ham học hỏi và đam mê giảng dạy, tôi mong muốn phát triển kỹ năng để trở thành kỹ sư giỏi trong 5 năm tới..
 
 ---
 
